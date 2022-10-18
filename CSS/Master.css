@@ -24,7 +24,7 @@ body {
 .active {
     background-color: #250f03;
     color: #c4b04f;
-    border: #ffe567 dotted 0.1em;
+    border: #ffe567 double 0.1em;
     border-radius: 0.5em;
     padding: 0 0.2em 0 0.2em;
 }
