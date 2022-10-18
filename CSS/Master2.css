@@ -21,9 +21,23 @@ body {
     border: none;
 }
 
+.active {
+    background-color: #250f03;
+    color: #c4b04f;
+    border: #481d06 dotted 0.1em;
+}
+
 .bg_Nav input[type=search] {
     width: 10vw;
 
+}
+
+.nav-item:hover {
+    transform: translate(2%, 2%);
+}
+
+.nav-item:hover>a {
+    filter: brightness(70%);
 }
 
 .color1 {
