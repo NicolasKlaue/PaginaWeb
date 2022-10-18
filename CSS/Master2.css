@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+.bg_Nav {
+    background-color: #481d06;
+    height: fit-content;
+    border: 1px solid;
+    border-radius: 0 0 0.5em 0.5em;
+    width: 100%;
+}
+
+.bg_Nav a {
+    color: #ffe567;
+    font-size: 2vh;
+}
+
+.bg_Nav button {
+    color: #ffe567;
+    border: none;
+}
+
+.bg_Nav input[type=search] {
+    width: 10vw;
+
+}
+
+.color1 {
+    color: #481d06;
+}
+
+.color2 {
+    color: #713b16;
+}
+
+.color3 {
+    color: #a86425;
+}
+
+.color4 {
+    color: #ec9e3c;
+}
+
+.color5 {
+    color: #ffe567;
+}
