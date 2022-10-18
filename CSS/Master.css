@@ -25,6 +25,8 @@ body {
     background-color: #250f03;
     color: #c4b04f;
     border: #481d06 dotted 0.1em;
+    border-radius: 0.5em;
+    padding: 0 0 0 0.2em;
 }
 
 .bg_Nav input[type=search] {
@@ -32,11 +34,8 @@ body {
 
 }
 
-.nav-item:hover {
+.per_button:hover {
     transform: translate(2%, 2%);
-}
-
-.nav-item:hover>a {
     filter: brightness(70%);
 }
 
