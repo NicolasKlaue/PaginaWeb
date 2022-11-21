@@ -1,0 +1,82 @@
+:root{
+    --border-color: rgb(57, 57, 57);
+    --bg-color: rgb(11, 8, 25);
+}
+body{
+    display: flex;
+    height: 100%;
+    overflow:hidden;
+    flex-direction: column;
+    background: var(--bg-color);
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav-section{
+    height: 10rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.nav-section.Logo{
+    flex: 3;
+    border-right: 1px solid var(--border-color);
+}
+.nav-section.Pages{
+    flex: 3;
+    border-right: 1px solid var(--border-color);
+}
+.nav-section.Socials{
+    border-right: 1px solid var(--border-color);
+}
+.nav-active svg, .nav-active a{
+    color: rgb(113, 112, 117) !important;
+}
+.nav-active svg, .nav-active a::before{
+    display: inline-block;
+    content:"»";
+    font-weight: 400;
+    font-size: inherit;
+}
+a:hover{
+    color: white;
+}
+.OnlySX {
+    display:none;
+    }
+h1, h2, h3, a, p ,span, svg{
+    font-family: "Rubik",sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color:white;
+    cursor: pointer;
+}
+@media (max-width: 800px) {
+    .nav-section {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+}
+@media (max-width: 800px) {
+    .nav-section.GIT,.nav-section.Socials {
+    display: none;
+    }
+}
+@media (max-width: 800px) {
+    .OnlySX {
+    display:block;
+    }
+}
+@media (min-width: 801px) {
+    .nav-section.Logo {
+    justify-content: left;
+    }
+}
