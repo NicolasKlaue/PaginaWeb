@@ -5,10 +5,11 @@
 body{
     display: flex;
     height: 100%;
-    overflow:hidden;
     flex-direction: column;
     background: var(--bg-color);
     margin: 0px;
+    width: 99vw;
+    overflow-x: hidden;
 }
 .navbar{
     display: flex;
@@ -51,12 +52,16 @@ a:hover{
 .OnlySX {
     display:none;
     }
-h1, h2, h3, a, p ,span, svg{
+h1, h2, h3, h4, h5 a, p, span, svg,label,input{
     font-family: "Rubik",sans-serif;
     text-decoration: none;
     font-weight: 400;
     color:white;
-    cursor: pointer;
+    cursor: default;
+}
+.card{
+    background-color: rgb(42, 40, 49);
+    padding: 1rem;
 }
 @media (max-width: 800px) {
     .nav-section {
@@ -80,3 +85,25 @@ h1, h2, h3, a, p ,span, svg{
     justify-content: left;
     }
 }
+.footer-div{
+    display: flex;
+    width: 99vw;
+    bottom: 0;
+    flex-direction: column;
+    padding: 0 25vw 0 25vw;
+    text-align: center;
+}
+.footer-div .Text{
+    width: 75%;
+    align-self: center;
+    font-size:xx-small;
+}
+.footer-div .Title{
+    width: 75%;
+    align-self: center;
+}
+
+
+/* *{
+    outline: green 1px solid;
+} */
