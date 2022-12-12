@@ -63,29 +63,8 @@ h1, h2, h3, h4, h5 a, p, span, svg,label,input{
     background-color: rgb(42, 40, 49);
     padding: 1rem;
 }
-@media (max-width: 800px) {
-    .nav-section {
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    }
-}
-@media (max-width: 800px) {
-    .nav-section.GIT,.nav-section.Socials {
-    display: none;
-    }
-}
-@media (max-width: 800px) {
-    .OnlySX {
-    display:block;
-    }
-}
-@media (min-width: 801px) {
-    .nav-section.Logo {
-    justify-content: left;
-    }
-}
 .footer-div{
+    position: fixed;
     display: flex;
     width: 99vw;
     bottom: 0;
@@ -97,10 +76,31 @@ h1, h2, h3, h4, h5 a, p, span, svg,label,input{
     width: 75%;
     align-self: center;
     font-size:xx-small;
+    color: white;
+    text-decoration: none;
 }
 .footer-div .Title{
     width: 75%;
     align-self: center;
+}
+@media (max-width: 767px) {
+    .nav-section.GIT,.nav-section.Socials {
+    display: none;
+    }
+    .OnlySX {
+    display:block;
+    }
+    .nav-section.Logo {
+    justify-content: left;
+    }
+    .nav-section {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .footer-div{
+        position: relative;
+    }
 }
 
 
