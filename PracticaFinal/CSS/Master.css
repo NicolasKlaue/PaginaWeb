@@ -36,11 +36,12 @@ body{
 .nav-section.Socials{
     border-right: 1px solid var(--border-color);
 }
-.nav-active svg, .nav-active a{
+.nav-active *{
     color: rgb(113, 112, 117) !important;
+    text-decoration:underline;
 }
-.nav-active svg, .nav-active a::before{
-    display: inline-block;
+.nav-active >*::before{
+    position: relative;
     content:"»";
     font-weight: 400;
     font-size: inherit;
