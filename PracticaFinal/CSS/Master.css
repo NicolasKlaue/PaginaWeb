@@ -36,13 +36,13 @@ body{
 .nav-active svg, .nav-active a{
     color: gold;
 }
-.nav-active svg, .nav-active a::before{
+.nav-active *::before{
     display: inline-block;
     content:" » ";
     font-weight: 400;
     font-size: inherit;
 }
-.nav-active svg, .nav-active a::after{
+.nav-active *::after{
     display: inline-block;
     content:" » ";
     font-weight: 400;
@@ -153,6 +153,28 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
 }
 .Carta img{
     width: 90%;
+}
+.index {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    justify-content: center;
+    column-gap: 10rem;
+    row-gap: 5rem;
+    grid-template: ". .";
+}
+.IndexCard{
+    text-align: center;
+    border: 0.5px #b89832 solid;
+    border-radius: 2rem;
+    height: 100%;
+}
+.IndexCard *{
+    padding: 1rem;
+}
+.index .IndexCard *{
+    color: #b89832;
 }
 @media (max-width: 767px) {
     .nav-section.GIT,.nav-section.Socials {

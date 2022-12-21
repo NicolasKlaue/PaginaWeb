@@ -57,8 +57,8 @@ document.getElementsByTagName('footer')[0].innerHTML =
 document.getElementsByTagName('header')[0].innerHTML =
   `
   <nav class="navbar">
-      <div class="nav-section Logo">
-          <a href="#">
+      <div class="nav-section Logo" id="Index">
+          <a href="index.html">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                   class="bi bi-house-door-fill" viewBox="0 0 16 16">
                   <path
