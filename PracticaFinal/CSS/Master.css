@@ -33,7 +33,7 @@ body{
     flex: 3;
     border-right: 1px solid var(--border-color);
 }
-.nav-active svg, .nav-active a{
+.nav-active *{
     color: gold;
 }
 .nav-active *::before{
@@ -135,21 +135,23 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
     border: solid 2.5px #5a4b18;
     aspect-ratio: 1/2.2;
     border-radius: 2rem;
-    transition: 1.3s;
+    transition: 1s;
     transform:rotateY(0deg);
+    transition-timing-function: linear;
 }
 .Carta:hover{
     transform:rotateY(180deg);
 }
 .Carta:hover *{
     transform: rotateY(180deg);
-    transition-delay: 0.5s;
+    transition-delay: calc(1s/2);
 }
 .Carta *{
     color: black;
-    transform:rotateY(270deg);
-    transition: 0.5s;
+    transform:rotateY(90deg);
+    transition: calc(1s/2);
     padding: 1rem;
+    transition-timing-function: linear;
 }
 .Carta img{
     width: 90%;
