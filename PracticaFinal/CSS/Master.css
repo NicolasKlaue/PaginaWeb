@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
     padding: 1rem;
 }
 .footer-div{
-    position: fixed;
+    position: relative;
     display: flex;
     width: 99vw;
     bottom: 0;
@@ -192,9 +192,6 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    }
-    .footer-div{
-        position: relative;
     }
 }
 /* *{
