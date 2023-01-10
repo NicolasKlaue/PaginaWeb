@@ -68,10 +68,11 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
 .footer-div{
     position: relative;
     display: flex;
-    width: 99vw;
-    bottom: 0;
     flex-direction: column;
+    width: 99vw;
+    margin-top: 5rem;
     padding: 0 25vw 0 25vw;
+    bottom: 0;
     text-align: center;
 }
 .footer-div .Text{
@@ -84,40 +85,6 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
 .footer-div .Title{
     width: 75%;
     align-self: center;
-}
-.Piramide{
-    position: absolute;
-    bottom: 0vh;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
-.Piso.Primero{
-    width: 100vw;
-}
-.Piso.Segundo{
-    width: 66vw;
-}
-.Piso.Tercero{
-    width: 33vw;
-}
-.Piso{
-    height: 15vh;
-    display: flex;
-    flex: auto;
-}
-.floor{
-    width: 100vw;
-    height: 5vh;
-    background-color:chocolate;
-}
-.Celula{
-    border: 1px dotted black;
-    background-color: rgb(68, 67, 5);
-    flex: auto;
 }
 .Cartas{
     width: 90vw;
@@ -199,6 +166,14 @@ video{
 }
 .maps{
     text-align: center;
+}
+.carousel-inner{
+    aspect-ratio: 16/9;
+}
+.carousel-img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 @media (max-width: 767px) {
     .nav-section.GIT,.nav-section.Socials {
