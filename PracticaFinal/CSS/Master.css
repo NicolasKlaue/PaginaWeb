@@ -50,7 +50,7 @@ body{
     font-size: inherit;
 }
 a:hover{
-    color: white;
+    color: #b89832;
 }
 .OnlySX {
     display:none;
@@ -60,7 +60,6 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
     text-decoration: none;
     font-weight: 400;
     color:white;
-    cursor: default;
 }
 .card{
     background-color: rgb(42, 40, 49);
@@ -178,6 +177,29 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
 .index .IndexCard *{
     color: #b89832;
 }
+div#video{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: none;
+}
+video{
+    width: 95vw;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.FotoDePerfil{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 5%;
+}
+.maps{
+    text-align: center;
+}
 @media (max-width: 767px) {
     .nav-section.GIT,.nav-section.Socials {
     display: none;
@@ -194,6 +216,13 @@ h1, h2, h3, h4, h5, a, p, span, svg,label,input{
     flex-wrap: wrap;
     }
 }
-/* *{
+.maps iframe{
+    width: 70vw;
+    aspect-ratio: 4/3;
+}
+.timeline{
+    margin: 0 2rem 0 2rem;
+}
+/*  *{
     outline: green 1px solid;
-} */
+}  */

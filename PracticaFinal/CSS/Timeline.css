@@ -10,12 +10,12 @@
     position: absolute;
     content:" ";
     width: 2px;
-    background: #ffe600;
+    background: #d4af37;
     left: 50%;
     margin-left: -1.5px;
 }
 .timeline > li {
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
     position: relative;
     width: 50%;
     float: left;
@@ -40,7 +40,7 @@
     width: -moz-calc(100% - 25px);
     width: -webkit-calc(100% - 25px);
     float: left;
-    border: 1px solid #ffe600;
+    border: 1px solid #d4af37;
     background: #000333;
     position: relative;
 }
@@ -50,8 +50,8 @@
     right: -15px;
     display: inline-block;
     border-top: 15px solid transparent;
-    border-left: 15px solid #ffe600;
-    border-right: 0 solid #ffe600;
+    border-left: 15px solid #d4af37;
+    border-right: 0 solid #d4af37;
     border-bottom: 15px solid transparent;
     content:" ";
 }
@@ -61,13 +61,13 @@
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid #ffe600;
-    border-right: 0 solid #ffe600;
+    border-left: 14px solid #d4af37;
+    border-right: 0 solid #d4af37;
     border-bottom: 14px solid transparent;
     content:" ";
 }
 .timeline > li > .timeline-badge {
-    color: #ffe600;
+    color: #d4af37;
     width: 24px;
     height: 24px;
     line-height: 50px;
@@ -132,6 +132,11 @@
 }
 .no-float {
     float: none !important;
+}
+.TimeLineImg{
+    width: 40%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
 }
 @media (max-width: 767px) {
     ul.timeline:before {
